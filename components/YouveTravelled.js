@@ -86,7 +86,7 @@ const YouveTravelled = ({ countries }) => {
           border: 1px solid #C3DED3;
           border-radius: 5px;
           background: no-repeat;
-          color: white;
+          color:  #001561;
           font-size: 17px;
           appearance: none;
           padding: 3px 7px;
@@ -98,7 +98,7 @@ const YouveTravelled = ({ countries }) => {
 
         .selectDisplay option {
           background: #2d2d2d;
-          color: white;
+          color: #001561;
         }
 
         .percentage {
@@ -113,7 +113,7 @@ const YouveTravelled = ({ countries }) => {
           margin: 0;
         }
         .percentage strong {
-          color: #C3DED3;
+          color: #001561;
         }
 
         @media only screen and (max-width: 768px) {

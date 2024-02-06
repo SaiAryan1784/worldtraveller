@@ -41,7 +41,7 @@ const Tooltip = ({ text = "", offsetX = 0, offsetY = 0, children }) => {
           background: #8A9BCA;
           padding: 4px 7px;
           border-radius: 5px;
-          color: #C3DED3;
+          color: #001561;
           font-size: 12px;
           -webkit-user-select: none;
           -moz-user-select: none;

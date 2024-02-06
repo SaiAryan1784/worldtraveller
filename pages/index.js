@@ -280,7 +280,7 @@ const Home = () => {
      user-scalable=0"
         ></meta>
       </Head>
-      <header>
+      {/* <header>
         <img src="/img/logo.png" id="logo" />
         <div className="amazon">
           <a href={buyMap[0]} target="_blank">
@@ -288,7 +288,7 @@ const Home = () => {
             <span>{buyMap[1]}</span>
           </a>
         </div>
-      </header>
+      </header> */}
       <main>
         <YouveTravelled countries={selected} />
         <div className="panels addCountry">
