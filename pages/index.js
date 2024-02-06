@@ -63,7 +63,7 @@ const closeShareBtn = {
   right: 0,
   top: 0,
   fontSize: "50px",
-  color: "#363533",
+  color: "#8A9BCA",
   cursor: "pointer",
 };
 
@@ -432,7 +432,7 @@ const Home = () => {
 
         .panels {
           position: fixed;
-          background: #2d2d2d;
+          background: #C3DED3;
           color: white;
           text-align: center;
           z-index: 1;
@@ -442,7 +442,7 @@ const Home = () => {
 
         header {
           display: flex;
-          background: #2d2d2d;
+          background: #C3DED3;
           height: 120px;
         }
 
@@ -491,9 +491,9 @@ const Home = () => {
         .shareWrapper button {
           margin-top: 10px;
           padding: 5px 10px;
-          border: #46e992 1px solid;
-          background: #2d2d2d;
-          color: #46e992;
+          border: #8A9BCA 1px solid;
+          background: #C3DED3;
+          color: #8A9BCA;
           font-size: 16px;
         }
         .shareWrapper img {
@@ -511,7 +511,7 @@ const Home = () => {
           padding: 20px;
           margin: 0 55px;
           background: #363636;
-          color: #46e992;
+          color: #C3DED3;
           border-radius: 0 0 25px 25px;
           text-align: center;
           font-size: 18px;
@@ -550,7 +550,7 @@ const Home = () => {
           align-items: flex-end;
           flex-direction: column;
           max-width: 90px;
-          border: 1px solid #46e99277;
+          border: 1px solid #C3DED3
           border-radius: 11px;
           padding: 7px;
         }
@@ -604,7 +604,7 @@ const Home = () => {
         .share:hover,
         .clear:hover,
         .zoom:hover {
-          background: #3d3d3d;
+          background: #E1C5D4;
         }
 
         .clear {
@@ -664,11 +664,11 @@ const Home = () => {
         }
 
         .map path:hover {
-          fill: #37825a99;
+          fill: #C3DED3;
         }
 
         .map path[aria-checked="true"] {
-          fill: #37825a;
+          fill: #C3DED3;
         }
 
         @media only screen and (max-width: 768px) {

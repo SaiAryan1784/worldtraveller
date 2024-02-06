@@ -80,7 +80,7 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
           margin-top: 14px;
           margin-left: -5px;
           z-index: 10;
-          background: #2d2d2d;
+          background: #8A9BCA;
           color: white;
           max-height: 200px;
           overflow: scroll;
@@ -94,8 +94,8 @@ const ComboBox = ({ selectedCountry, selectedList = [] }) => {
 
         .comboOption:hover,
         [data-reach-combobox-option][aria-selected="true"] {
-          background: #46e992;
-          color: #2d2d2d;
+          background: #C3DED3;
+          color: #E1C5D4;
           font-weight: bold;
         }
 

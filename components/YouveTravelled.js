@@ -83,7 +83,7 @@ const YouveTravelled = ({ countries }) => {
       </div>
       <style jsx>{`
         .selectDisplay {
-          border: 1px solid #46e992;
+          border: 1px solid #C3DED3;
           border-radius: 5px;
           background: no-repeat;
           color: white;
@@ -113,7 +113,7 @@ const YouveTravelled = ({ countries }) => {
           margin: 0;
         }
         .percentage strong {
-          color: #46e992;
+          color: #C3DED3;
         }
 
         @media only screen and (max-width: 768px) {

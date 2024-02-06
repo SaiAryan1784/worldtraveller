@@ -38,10 +38,10 @@ const Tooltip = ({ text = "", offsetX = 0, offsetY = 0, children }) => {
       <span className="tooltip">{text}</span>
       <style jsx>{`
         .tooltip {
-          background: #363533bb;
+          background: #8A9BCA;
           padding: 4px 7px;
           border-radius: 5px;
-          color: #46e992;
+          color: #C3DED3;
           font-size: 12px;
           -webkit-user-select: none;
           -moz-user-select: none;
